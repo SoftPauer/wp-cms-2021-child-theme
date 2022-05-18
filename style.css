@@ -10,3 +10,130 @@ Version:      1.0.2
 Text Domain:  twentytwentyonechild
 GitHub Theme URI: https://github.com/SoftPauer/wp-cms-2021-child-theme
 */
+
+@charset "UTF-8";
+
+/*
+Theme Name:  twentytwentyone Child Theme
+Theme URI:    https://www.wpbeginner.com/
+Description:  A Twenty Twenty-One child theme 
+Author:       SP
+Author URI:   https://www.wpbeginner.com
+Template:     twentytwentyone
+Version:      1.0.1
+Text Domain:  twentytwentyonechild
+GitHub Theme URI: https://github.com/SoftPauer/wp-cms-2021-child-theme
+*/
+.pods-form-ui-field-type-pick {
+    margin-right: 20px !important;
+}
+
+.pods-field-option {
+    color: black !important;
+}
+
+.pods-field-option input {
+    border: black solid 1px !important;
+}
+
+.pods-field-option label {
+    color: grey !important;
+}
+
+.pods-checkbox-pick__option__label {
+    color: black !important;
+}
+
+.site-header {
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.site-footer {
+    display: none;
+}
+
+aside {
+    display: none;
+}
+
+.main-page .login-button .wp-block-button .wp-block-button__link {
+    width: 100%;
+    margin: auto;
+    height: 66px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    border: none;
+}
+
+.main-page .login-button .wp-block-button {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0px;
+}
+
+.post-192 .entry-header {
+    display: none;
+}
+
+.site-main {
+    padding: 0;
+    height: 100vh
+}
+
+.content-area {
+    height: 100vh;
+}
+
+.widget-area {
+    display: none;
+}
+
+.main-app {
+    border: none;
+    width: 100vw;
+    height: 100vh;
+}
+
+.entry-content {
+    margin-top: 0 !important;
+}
+
+.post-192 .entry-content p {
+    margin: 0 !important;
+    width: 100vw !important;
+}
+
+#advanced_iframe_2 {
+    max-height: unset !important;
+    max-width: unset !important;
+    margin: 0 !important;
+}
+
+.main-page {
+    height: 100% !important;
+    margin-top: 32px;
+}
+
+.welcome-logo {
+    padding-top: 14vh;
+    width: 73vw;
+}
+
+.welcome-text {
+    margin: 0 45px !important;
+    font-size: 1.313rem !important;
+}
+
+.welcome-body {
+    margin: 0 45px !important;
+    font-size: 1.063rem;
+    padding-top: 21px;
+}
+
+.login-button {
+    margin: 0 20px 0 35px !important;
+    width: auto !important;
+    padding-top: 38vh;
+}

@@ -37,3 +37,11 @@ function block_unauthenticated_rest_requests($result)
 
     return $result;
 }
+
+function add_custom_capability()
+{
+    $role = get_role('administrator');
+    $role->add_cap('eventr_manager', true);
+}
+
+add_action('init', 'add_custom_capability');
